@@ -2,12 +2,12 @@
 
 This repository contains the Cypher queries for the Knowledge Graph game designed for the first time Neo4j Graph technology users to follow along with the demo and better understand the concepts of Knowledge Graphs and Neo4j.
 
-For this we have prepared a small ![dataset](./data/) covering the following topics:
+For this we have prepared a small [dataset](./data/) covering the following topics:
 
-- ![Education](./data/sng_education.csv)
-- ![Employment](./data/sng_work.csv)
-- ![Travel](./data/sng_trips.csv)
-- ![Bank Card Transactions](./data/sng_work.csv)
+- [Education](./data/sng_education.csv)
+- [Employment](./data/sng_work.csv)
+- [Travel](./data/sng_trips.csv)
+- [Bank Card Transactions](./data/sng_work.csv)
 
 <br>
 In this demo we will be covering the following Neo4j Graph usages:
