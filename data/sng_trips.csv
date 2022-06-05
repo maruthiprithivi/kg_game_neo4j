@@ -1,0 +1,16 @@
+passportnumber,name,citizenship,departuredate,departurecountry,arrivaldate,arrivalcountry
+ABC1234DEF,Ariff Johan,Singapore ,"Thursday, 12 April 2018",Singapore ,"Thursday, 12 April 2018",Hawaii
+ABC1234DEF,Ariff Johan,Singapore ,"Sunday, 2 June 2019",Singapore ,"Sunday, 2 June 2019",Indonesia 
+ABC1234DEF,Ariff Johan,Singapore ,"Friday, 12 March 2021",Singapore ,"Friday, 12 March 2021",Korea
+ABC1234DEF,Ariff Johan,Singapore ,"Sunday, 26 September 2021",Singapore ,"Sunday, 26 September 2021",Vietnam
+ABC1234DEF,Ariff Johan,Singapore ,"Saturday, 11 December 2021",Singapore ,"Saturday, 11 December 2021",Dubai
+GHI5678JKL,Alice Gan,Malaysia ,"Monday, 15 January 2018",Malaysia ,"Monday, 15 January 2018",London
+GHI5678JKL,Alice Gan,Malaysia ,"Saturday, 2 March 2019",Malaysia ,"Saturday, 2 March 2019",France
+GHI5678JKL,Alice Gan,Malaysia ,"Thursday, 12 March 2020",Malaysia ,"Thursday, 12 March 2020",Belgium
+GHI5678JKL,Alice Gan,Malaysia ,"Friday, 11 June 2021",Malaysia ,"Friday, 11 June 2021",Philippines
+GHI5678JKL,Alice Gan,Malaysia ,"Sunday, 26 September 2021",Malaysia ,"Sunday, 26 September 2021",Vietnam
+MNO9101PQR,Anil Kumar,India,"Tuesday, 15 January 2019",India,"Tuesday, 15 January 2019",Tokyo
+MNO9101PQR,Anil Kumar,India,"Tuesday, 2 July 2019",India,"Tuesday, 2 July 2019",New York 
+MNO9101PQR,Anil Kumar,India,"Wednesday, 12 February 2020",India,"Wednesday, 12 February 2020",Canada
+MNO9101PQR,Anil Kumar,India,"Sunday, 26 September 2021",India,"Sunday, 26 September 2021",Vietnam
+MNO9101PQR,Anil Kumar,India,"Monday, 11 October 2021",India,"Monday, 11 October 2021",Thailand
