@@ -60,7 +60,7 @@ MERGE (country)<-[:FROM]-(institution)
 MERGE (course)<-[:MATRICULATED {year:row.startyear}]-(person)-[:GRADUATED {year:row.endyear}]->(course);
 
 // Check the Graph Schema
-CALL db.schema.visualization
+CALL db.schema.visualization;
 
 // Verify education data load
 MATCH (n) RETURN LABELS(n) as node_labels, COUNT(n) as node_count;
@@ -74,7 +74,7 @@ MATCH (person:Person {passportnumber: row.passportnumber})
 MERGE (person)-[:EMPLOYED]->(organization);
 
 // Check the Graph Schema
-CALL db.schema.visualization
+CALL db.schema.visualization;
 
 // Verify employment data load
 MATCH (n) RETURN LABELS(n) as node_labels, COUNT(n) as node_count;
@@ -89,7 +89,7 @@ MERGE (person)-[:TRAVELLED {departuredate: row.departuredate, arrivaldate: row.a
 MERGE (person)-[:CITIZEN_OF]->(citizenship);
 
 // Check the Graph Schema
-CALL db.schema.visualization
+CALL db.schema.visualization;
 
 // Verify travel data load
 MATCH (n) RETURN LABELS(n) as node_labels, COUNT(n) as node_count;
@@ -106,7 +106,7 @@ MERGE (merchant)<-[:TRANSACTED {amount: row.amount, transactiondate: row.transac
 MERGE (transaction)-[:FROM]->(merchant);
 
 // Check the Graph Schema
-CALL db.schema.visualization
+CALL db.schema.visualization;
 
 // Verify bank card transaction data load
 MATCH (n) RETURN LABELS(n) as node_labels, COUNT(n) as node_count;
