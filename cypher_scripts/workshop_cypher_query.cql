@@ -71,7 +71,7 @@ MERGE (organization:Organization {designation: row.designation, organization: ro
 MERGE (country:Country {name: row.country})
 WITH organization, country, row
 MATCH (person:Person {passportnumber: row.passportnumber})
-MERGE (person)-[:EMPLOYED]->(organization)
+MERGE (person)-[:EMPLOYED]->(organization);
 
 // Check the Graph Schema
 CALL db.schema.visualization
