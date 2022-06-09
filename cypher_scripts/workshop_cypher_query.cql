@@ -33,7 +33,7 @@ RETURN row limit 5;
 //// Build the Knowledge Graph!!
 ////////////////////////////////////////////////////////////////////////////////////////
 
-// It's best practice to add constraints and indexes in your database before loading data into Neo4j.
+// Neo4j best practice to add constraints and indexes in your database before loading data into Neo4j.
 
 // Create Constraints and verify the constraints
 CREATE CONSTRAINT personPassportNumberConstraint IF NOT EXISTS FOR (p:Person) REQUIRE p.passportnumber IS UNIQUE;
